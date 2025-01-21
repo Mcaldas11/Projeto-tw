@@ -194,3 +194,40 @@ p {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.interactive-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.interactive-list li {
+    margin: 10px 0;
+}
+
+.expand-btn {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.expand-btn:hover {
+    background-color: #3742fa;
+    transform: scale(1.02);
+}
+
+.details {
+    display: none;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333;
+}
