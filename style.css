@@ -38,7 +38,7 @@ nav ul li a {
     text-align: center;
     padding: 50px 20px;
     background: #000000;
-    color: #1e90ff;
+    color: #042341;
 }
 
 .info {
@@ -72,6 +72,10 @@ footer {
     color: #fff;
     bottom: 0;
     width: 100%;
+}
+
+footer p {
+    color:#ffffff
 }
 
 
@@ -188,8 +192,14 @@ tbody tr:hover {
 p {
     text-align: center;
     margin-top: 20px;
-    color: #139A9C;
+    color: #474343;
 }
+
+.hero p {
+    color: #000000;
+}
+
+
 
 .img1 {
     width: 100%;
